@@ -1,0 +1,44 @@
+# _redirects para Workers Static Assets (html_handling: "none")
+# Generado a partir del inventario real del repositorio y del comportamiento
+# medido en produccion (GitHub Pages) el 3 de septiembre de 2026.
+# No copiar ni ampliar sin volver a verificar contra produccion.
+
+# 1. Raiz e indices de directorio (7 reglas, reescritura 200)
+/                                             /index.html                                             200
+/productos/                                   /productos/index.html                                   200
+/productos/ropa/                              /productos/ropa/index.html                              200
+/productos/bastones/                          /productos/bastones/index.html                          200
+/productos/bastones/esqui/                    /productos/bastones/esqui/index.html                    200
+/productos/bastones/piezas/                   /productos/bastones/piezas/index.html                   200
+/productos/bastones/trail/                    /productos/bastones/trail/index.html                   200
+
+# 2. Variantes sin extension (18 reglas, reescritura 200)
+/camiseta-palillero                           /camiseta-palillero.html                                200
+/contacto                                     /contacto.html                                          200
+/faq                                          /faq.html                                               200
+/nosotros                                     /nosotros.html                                          200
+/pedidos                                      /pedidos.html                                           200
+/productos/index                              /productos/index.html                                   200
+/productos/ropa/index                         /productos/ropa/index.html                              200
+/productos/bastones/index                     /productos/bastones/index.html                         200
+/productos/bastones/esqui/index               /productos/bastones/esqui/index.html                   200
+/productos/bastones/piezas/index              /productos/bastones/piezas/index.html                  200
+/productos/bastones/trail/index               /productos/bastones/trail/index.html                   200
+/productos/bastones/esqui/baston-nature       /productos/bastones/esqui/baston-nature.html           200
+/productos/bastones/esqui/baston-roti         /productos/bastones/esqui/baston-roti.html             200
+/productos/bastones/esqui/baston-black-mamba  /productos/bastones/esqui/baston-black-mamba.html      200
+/productos/bastones/esqui/baston-custom       /productos/bastones/esqui/baston-custom.html           200
+/productos/bastones/trail/baston-trail-roti   /productos/bastones/trail/baston-trail-roti.html       200
+/promos/drinking-10-aniversario               /promos/drinking-10-aniversario.html                   200
+/resources/signature/mail-signature           /resources/signature/mail-signature.html               200
+
+# 3. Directorios sin barra final (8 reglas, 301) - conserva el comportamiento
+#    real de GitHub Pages, que no esta descrito en el documento de origen.
+/productos                                    /productos/                                             301
+/productos/ropa                               /productos/ropa/                                        301
+/productos/bastones                           /productos/bastones/                                    301
+/productos/bastones/esqui                     /productos/bastones/esqui/                              301
+/productos/bastones/piezas                    /productos/bastones/piezas/                             301
+/productos/bastones/trail                     /productos/bastones/trail/                              301
+/promos                                       /promos/                                                301
+/resources/signature                          /resources/signature/                                   301
