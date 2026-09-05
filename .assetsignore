@@ -1,0 +1,13 @@
+.git
+.gitignore
+.github
+.DS_Store
+.nojekyll
+CNAME
+.htaccess
+README.md
+composer.phar
+wrangler.jsonc
+package.json
+package-lock.json
+node_modules

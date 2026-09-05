@@ -1,0 +1,81 @@
+# GitHub Pages envia text/html; charset=utf-8 y eso anula el meta iso-8859-1.
+# Workers, sin charset, usa el meta y las tildes se rompen. Forzar UTF-8 en
+# todas las URLs HTML (archivos .html y reescrituras 200 de _redirects).
+
+/*.html
+  Content-Type: text/html; charset=utf-8
+
+/
+  Content-Type: text/html; charset=utf-8
+
+/productos/
+  Content-Type: text/html; charset=utf-8
+
+/productos/ropa/
+  Content-Type: text/html; charset=utf-8
+
+/productos/bastones/
+  Content-Type: text/html; charset=utf-8
+
+/productos/bastones/esqui/
+  Content-Type: text/html; charset=utf-8
+
+/productos/bastones/piezas/
+  Content-Type: text/html; charset=utf-8
+
+/productos/bastones/trail/
+  Content-Type: text/html; charset=utf-8
+
+/camiseta-palillero
+  Content-Type: text/html; charset=utf-8
+
+/contacto
+  Content-Type: text/html; charset=utf-8
+
+/faq
+  Content-Type: text/html; charset=utf-8
+
+/nosotros
+  Content-Type: text/html; charset=utf-8
+
+/pedidos
+  Content-Type: text/html; charset=utf-8
+
+/productos/index
+  Content-Type: text/html; charset=utf-8
+
+/productos/ropa/index
+  Content-Type: text/html; charset=utf-8
+
+/productos/bastones/index
+  Content-Type: text/html; charset=utf-8
+
+/productos/bastones/esqui/index
+  Content-Type: text/html; charset=utf-8
+
+/productos/bastones/piezas/index
+  Content-Type: text/html; charset=utf-8
+
+/productos/bastones/trail/index
+  Content-Type: text/html; charset=utf-8
+
+/productos/bastones/esqui/baston-nature
+  Content-Type: text/html; charset=utf-8
+
+/productos/bastones/esqui/baston-roti
+  Content-Type: text/html; charset=utf-8
+
+/productos/bastones/esqui/baston-black-mamba
+  Content-Type: text/html; charset=utf-8
+
+/productos/bastones/esqui/baston-custom
+  Content-Type: text/html; charset=utf-8
+
+/productos/bastones/trail/baston-trail-roti
+  Content-Type: text/html; charset=utf-8
+
+/promos/drinking-10-aniversario
+  Content-Type: text/html; charset=utf-8
+
+/resources/signature/mail-signature
+  Content-Type: text/html; charset=utf-8
